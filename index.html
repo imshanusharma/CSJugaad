@@ -1,9 +1,98 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <style>
+            body
+            {
+                background-image: url("notes.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            td
+            {
+                height: 50px;
+                text-align: center;
+            }
+            #branch
+            {
+                border:solid 2px;
+                width:60%;
+                padding:15px;
+            }
+            #Semester
+            {
+                border:solid 2px;
+                width:80%;
+                padding:15px;
+            }
+            #Subject
+            {
+                border:solid 2px;
+                width:60%;
+                padding:15px;
+            }
+            .select
+            {
+                font-size: 1.5em;
+                padding: 20px;
+                border-radius:20px;
+                color: rgb(226, 65, 53);
+                cursor:pointer;
+            }
+            .select:hover
+            {
+                color:black;
+            }
+            .button
+            {
+                background-color: lightgreen;
+                font-size: 2em;
+                border-radius: 25px;
+            }
+            .button:hover
+            {
+                background-color: lightpink;
+                cursor: pointer;
+            }
+        </style>
     </head>
     <body>
-        Hello!haeelp
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <table width="100%">
+            <tr>
+                <td><select class="select"id="branch">
+                    <option disabled selected>Select branch:</option>
+                    <option valule="CSE">CSE</option>
+                    <option valule="MECHANICAL">MECHANICAL</option>
+                    <option valule="CIVIL">CIVIL</option>
+                    <option valule="ELECTRICSAL">ELECTRICAL</option>
+                </select></td>
+                <td><select class="select" id="Semester">
+                    <option disabled selected>Select semester:</option>
+                    <option value="1st">1st</option>
+                    <option value="2nd">2nd</option>
+                    <option value="3rd">3rd</option>
+                    <option value="4th">4th</option>
+                    <option value="5th">5th</option>
+                    <option value="6th">6th</option>
+                    <option value="7th">7th</option>
+                    <option value="8th">8th</option>
+                </select></td>
+                <td><select class="select" id="Subject">
+                    <option disabled selected>Select subject:</option>
+                    <option value="CP">CP</option>
+                    <option value="BEE">BEE</option>
+                    <option value="MATHS">MATHS</option>
+                    <option value="PHYSICS">PHYSICS</option>
+                </select></td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr>
+                <td></td>
+                <td><button class="button" type="button">Search Notes</button></td>
+            </tr>
+        </table>
     </body>
 </html>
