@@ -7,4 +7,4 @@ https://imshanusharma.github.io/CSJugaad/
  
 Harinder Singh \
 Ujjwal Sharma \
-Jashanjot Singh \
+Jashanjot Singh 
